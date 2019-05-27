@@ -234,9 +234,9 @@ console.log(colors)
 
 ```
 
-### 3.判断字符串里面的括号是否对称
+##### 3.判断字符串里面的括号是否对称
 
-```
+```js
 function balanceParens(string){
     return !string.split("").reduce((previous,char)=>{
         if(previous<0){return previous}
